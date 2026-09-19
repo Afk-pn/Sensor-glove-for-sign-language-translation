@@ -2,9 +2,9 @@
 
 An Arduino-based wearable glove that recognizes predefined hand gestures using flex sensors and an MPU6050 IMU, then transmits the recognized gesture over Bluetooth to an Android application.
 
-## Overview
+## System Overview
 
-The system captures finger-bending and hand-orientation data and performs real-time gesture classification on an Arduino Nano.
+The glove captures finger-bending and hand-orientation data and performs real-time gesture classification on an Arduino Nano.
 
 **System flow:**
 
@@ -45,7 +45,7 @@ The prototype recognizes 7 predefined gestures:
 
 ## Communication
 
-Recognized gestures are transmitted through an HC-05 Bluetooth module to an Android application, where they can be displayed as text and converted to speech.
+Recognized gestures are transmitted through an HC-05 Bluetooth module to an Android application, where they are displayed as text and converted to speech.
 
 ## Project Structure
 
